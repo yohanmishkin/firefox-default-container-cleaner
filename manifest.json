@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "Container-a-day",
+  "version": "0.1.0",
+
+  "applications": {
+    "gecko": {
+       "strict_min_version": "56.0"
+    }
+  },
+
+  "description": "Moves all default container tabs into a new container name by the date. This makes it easy to start each day with a fresh default container.",
+
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/48.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "contextualIdentities",
+    "cookies",
+    "tabs"
+  ]
+}
