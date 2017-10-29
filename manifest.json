@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Container-a-day",
+  "name": "Container Cleaner",
   "version": "0.1.0",
 
   "applications": {
@@ -10,7 +10,7 @@
     }
   },
 
-  "description": "Moves all default container tabs into a new container name by the date. This makes it easy to start each day with a fresh default container.",
+  "description": "Moves all default container tabs into a new container generated with todays date as its name. This makes it easy to start each day with a fresh default container.",
 
   "icons": {
     "48": "icons/48.png",
