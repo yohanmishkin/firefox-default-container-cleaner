@@ -7,7 +7,7 @@ function onError(e) {
   console.error(e);
 }
 
-function createDailyTab() {
+function cleanDefaultContainer() {
   var dateString = `${(new Date().getMonth() + 1)}-${new Date().getDate() + 1}-${new Date().getFullYear()}`
   var colors = ['red', 'orange', 'yellow', 'green', 'turquoise', 'blue', 'purple'];
 
@@ -29,4 +29,4 @@ function createDailyTab() {
    }, onError);
 }
 
-browser.browserAction.onClicked.addListener(createDailyTab);
+browser.browserAction.onClicked.addListener(cleanDefaultContainer);

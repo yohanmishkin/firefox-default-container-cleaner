@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Container Cleaner",
+  "name": "Default Container Cleaner",
   "version": "0.1.0",
 
   "applications": {
